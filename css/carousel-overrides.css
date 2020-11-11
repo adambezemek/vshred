@@ -1,0 +1,23 @@
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+.slick-next {
+  right: 0;
+  z-index: 1;
+}
+.slick-dots {
+  bottom: 5px;
+}
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .carousel-max-width {
+    max-width: 436px;
+  }
+}
