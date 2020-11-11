@@ -44,10 +44,7 @@
       <div class="text-xs mb-2">
         <span class="font-bold">Size:</span> Medium
       </div>
-      <a
-        href="javascript:void(0);"
-        class="text-xs text-blue-400 underline hover:no-underline"
-      >
+      <a href="/" class="text-xs text-blue-400 underline hover:no-underline">
         Size Guide
       </a>
     </div>

@@ -4,16 +4,19 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'vshred',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    title: 'V Shred Code Test',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Testing my FE Skills' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'stylesheet',
+        rel: 'preconnect',
         href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,600&display=swap'
       }
     ]
@@ -36,8 +39,13 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@aceforth/nuxt-optimized-images'
   ],
+
+  optimizedImages: {
+    optimizeImages: true
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

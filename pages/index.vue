@@ -12,7 +12,7 @@
         <ProductDetails />
       </div>
       <a
-        href="javascript:void(0);"
+        href="/"
         class="block w-full text-center text-gray-500 underline hover:no-underline mt-2 lg:mt-10"
         >No Thanks</a
       >
